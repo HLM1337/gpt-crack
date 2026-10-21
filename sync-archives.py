@@ -11,6 +11,11 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent
 PROMPT_ARCHIVES = (
     (
+        Path("gpt-6.1-sol-v2.md"),
+        Path("gpt-6.1-sol-v2.zip"),
+        "gpt-6.1-sol-v2.md",
+    ),
+    (
         Path("gpt-6.1-sol-v1-rc2.md"),
         Path("gpt-6.1-sol-v1-rc2.zip"),
         "gpt-6.1-sol-v1-rc2.md",
