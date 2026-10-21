@@ -85,6 +85,8 @@ verdict                 attention needed / 需处理
 - 旧脚手架的签名串在本中转上并没有被拦，三种 `instructions` 结果完全一致；
 - 真能改变结果的是把请求写成具体的工程任务：点名环境、说清前提、要一个明确工件。
 
+模型层也测了，结论同样冷：同一个露骨场景分别用"临床语域"、"作者已签约"、"什么都不加"三种框架各发 2 次，**6/6 全部 hedge**（"I can write … but I can't describe the sex act"），而旧脚手架、v2、无提示词三臂之间的差别为零。这个模型对这类内容的拒绝不来自提示词结构，换提示词挪不动它。
+
 用 `scripts/rsp_probe.zip` 可以复现这组测量（解包后跑 `python scripts/rsp_probe.py --help`）。
 
 v2 的处理：

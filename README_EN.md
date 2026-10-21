@@ -83,6 +83,8 @@ The conclusion is blunt: **the filter acts on the `input` field and ignores `ins
 - the old scaffold's markers were not blocked at this relay at all; all three `instructions` values gave identical results;
 - what does change the outcome is writing the request as a concrete engineering task: name the environment, state the premise, ask for a specific artifact.
 
+The model layer was measured too, with the same cold result: the same explicit scene was sent twice each under three framings — clinical register, author-signed-off, and no framing at all — and **6/6 hedged** ("I can write … but I can't describe the sex act"), with no difference at all between the old scaffold, v2, and no prompt. This model's refusal on that class of content does not come from prompt structure, so swapping prompts does not move it.
+
 `scripts/rsp_probe.zip` reproduces this measurement (unpack and run `python scripts/rsp_probe.py --help`).
 
 What v2 does instead:
