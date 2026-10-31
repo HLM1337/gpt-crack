@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Prompt markdown is shipped inside the .zip as LF bytes. Pin it, so a Windows
+# checkout reproduces the published archive hash instead of CRLF.
+/gpt-*.md text eol=lf
